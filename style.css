@@ -35,7 +35,7 @@ header nav ul li a:hover {
   cursor: pointer;
 }
 
-main {
+.index {
   display: flex;
   flex-wrap: wrap;
 }
@@ -66,8 +66,7 @@ section.right {
 }
 
 .classTitle,
-.contextTitle,
-.teacherIntor {
+.contextTitle {
   margin-top: 10px;
 }
 
@@ -99,6 +98,19 @@ th {
   margin: 0;
   padding: 0;
 }
-li {
-  margin-bottom: 5px;
+
+.chapter {
+  padding-left: 35px;
+  padding-top: 25px;
+}
+
+.ch {
+  padding-left: 50px;
+  line-height: 30px;
+}
+
+.li-container ul {
+  margin: 0;
+  padding-left: 100px;
+  line-height: 36px;
 }
