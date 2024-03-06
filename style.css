@@ -114,3 +114,8 @@ th {
   padding-left: 100px;
   line-height: 36px;
 }
+
+.classEnv,
+.linkEnv {
+  padding: 1rem;
+}
